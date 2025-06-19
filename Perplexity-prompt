@@ -1,19 +1,19 @@
 # Initial Prompt
 
-## CASE TYPE: BULLISH
+## CASE TYPE: NEUTRAL
 
 ### SCENARIO CONTEXT:
-Focus on **BULLISH** scenarios:
+Focus on **NEUTRAL** scenarios:
 
-- Regulatory breakthroughs and ETF approvals  
-- Technical breakouts above key resistance levels. Uptrend Channel formed that resembles a ‘bullflag’ with Support currently at ~$2,475 and Resistance at ~$2,850  
-- Surge in volume leading to a rapid price breakout  
-- Positive macro factors (Fed dovishness, USD weakness)  
-- Mention of money printing/quantitative easing or further easing down on quantitative tightening by the FED  
-- Celebrity/corporate endorsements, including but not limited to *Etherealize*  
-- Further progress on the **GENIUS Act** bill, which is meant to regulate stablecoins. Note that most stablecoins are on the Ethereum chain, so this can spark more volume.  
-- Adoption of RWAs (Real-World Assets) by corporate entities like **BlackRock**  
-- Updates or progress about Ethereum being included in the US Reserves, especially if it consists of a high percentage of crypto reserve portfolio  
+- Regulatory breakthroughs and ETF decision delays, approvals or disapprovals
+- Technical breakouts above/below key levels.Support currently at ~2,475$ and Resistance at ~2,850$
+- Potential surge in volume leading to a rapid price breakout (up or down).
+- Macro factors (FED stance, upcoming meetings and announcements, the Dollar Index strength/weakness, the M2 Money Supply, Inflation rates, and anything economics related that you can find)
+- Mention of money printing/quantitative easing or further easing down on quantitative tightening by the FED
+- Celebrity/corporate endorsements, including but not limited to Etherealize
+- Further progress or news on the GENIUS Act bill, which is meant to regulate stablecoins, including delays, approvals or rejections. Note that most stablecoins are on the Ethereum chain so this can spark more volume
+- Adoption of RWA's by corporate entities like Blackrock
+- Updates or progress about Ethereum being included in the US Reserves, including percentage of Ethereum in the US crypto reserve portfolio if available
 
 ---
 
@@ -21,26 +21,28 @@ Focus on **BULLISH** scenarios:
 ## TIME PERIOD: Next 1 week
 
 ### CURRENT MARKET DATA:
-- **Current Price:** $2,616  
-- **24h Change:** 3.7%  
-- **7d Change:** 3.0%  
+- **Current Price:** $2,524 
+- **24h Change:** -0.7%  
+- **7d Change:** -8.0%  
 - **Market Cap Rank:** #2  
-- **24h Volume:** $18,193,929,513  
+- **24h Volume:** $18,746,936,669
 
 ---
 
-## NUMBER OF PREDICTIONS: 2
+## NUMBER OF PREDICTIONS: 7
 
 ### PREDICTION REQUIREMENTS:
-Generate **exactly 2 prediction points** spaced evenly over the time period.
+Generate **exactly 7 prediction points** spaced evenly over the time period.
 
 For each prediction point, provide:
 
 - **Predicted Price:** Specific price target with reasoning  
 - **Expected Volatility:** Percentage volatility expected around that time and corresponding volume  
+- **Sections:** Separate each point into Fundamental, Economic, and Technical parts
 - **Market Insight:** Detailed analysis of why price will move to this level  
 - **Key Factors:** Specific catalysts, technical levels, or events driving the prediction  
 - **Confidence Level:** 1–5 scale with justification  
+- **Probabilities:** % probabilities of Bullish, Neutral and Bearish
 
 > All predicted prices must be **unique**.
 
@@ -48,10 +50,15 @@ For each prediction point, provide:
 
 ### ANALYSIS FOCUS:
 
-- Recent market trends and momentum  
-- Technical analysis and key price targets  
-- Fundamental factors and upcoming events  
-- Market sentiment (Fear & Greed) and behavioral patterns  
-- Institutional activity and adoption trends  
+- Recent market trends and momentum
+- Technical analysis and key price targets
+- Fundamental factors and upcoming events
+- Market sentiment (Fear & Greed Indexes) and behavioral patterns
+- Institutional activity and adoption trends
+- Be unbiased in your analysis but veil it with a bearish outlook (as though looking at the market from a short-seller’s perspective)
+- Both ups and downs of market price predictions as per each day
+- Consider the (expected) date/time of approval of the actual events
+- Price technical breakouts to the downside or upside should be more volatile (sudden greater price moves between 7-15 percent) and with more volume
+- Search for recent news and news headlines to substantiate the data
 
 Provide **comprehensive analysis** with **specific price targets** and **reasoning** for each of the 2 time points.
