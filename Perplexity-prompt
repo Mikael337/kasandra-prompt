@@ -1,12 +1,12 @@
 # Initial Prompt
 
-## CASE TYPE: BEARISH
+## CASE TYPE: NEUTRAL
 
 ### SCENARIO CONTEXT:
-Focus on **BEARISH** scenarios.
+Focus on **NEUTRAL** scenarios.
 
 ## CRYPTOCURRENCY SYMBOL: ETH  
-## TIME PERIOD: Next 1 week
+## TIME PERIOD: Next 1 month
 
 ### CURRENT MARKET DATA:
 - Symbol: ${symbol_upper}
@@ -41,6 +41,7 @@ For each prediction point, provide:
 
 ### ANALYSIS FOCUS:
 
+Focus on:
 - Recent market trends and momentum
 - Technical analysis and key price targets
 - Fundamental factors and upcoming events
@@ -50,6 +51,6 @@ For each prediction point, provide:
 - Both ups and downs of market price predictions as per each day
 - Consider the (expected) date/time of approval of the actual events
 - Price technical breakouts to the downside or upside should be more volatile (sudden greater price moves between 7-15 percent) and with more volume
-- Search for recent news and news headlines to substantiate the data
+- Critical point: Search for recent news and news headlines to substantiate the data. Find several sources and combine them to formulate averages and predictions.
 
 Provide **comprehensive analysis** with **specific price targets** and **reasoning** for each of the 10 time points.
