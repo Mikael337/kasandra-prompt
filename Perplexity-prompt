@@ -1,9 +1,9 @@
 # Initial Prompt
 
-## CASE TYPE: NEUTRAL
+## CASE TYPE: BULLISH
 
 ### SCENARIO CONTEXT:
-Focus on **NEUTRAL** scenarios.
+Focus on **BULLISH** scenarios.
 
 ## CRYPTOCURRENCY SYMBOL: ETH  
 ## TIME PERIOD: Next 1 month
@@ -27,13 +27,13 @@ Generate **exactly 10 prediction points** spaced evenly over the time period.
 
 For each prediction point, provide:
 
-1. Predicted Price: Specific price target with reasoning
-2. Expected Volatility: Percentage volatility expected around that time and corresponding volume
-3. Sections: Separate each point into Fundamental, Economic, and Technical parts
-4. Market Insight: Detailed analysis of why price will move to this level
-5. Key Factors: Specific catalysts, technical levels, or events driving the prediction
-6. Confidence Level: 1-5 scale with justification
-7. Probabilities: % probabilities of Bullish, Neutral and Bearish
+1. **Predicted Price**: Specific price target with reasoning
+2. **Expected Volatility**: Percentage volatility expected around that time
+3. **Market Insight**: Detailed analysis of why price will move to this level
+4. **Key Factors**: Specific catalysts, technical levels, or events driving the prediction
+5. **Confidence Level**: 1-10 scale with justification
+6. **Confidence Level**: 1-5 scale with justification
+7. **Probabilities**: Add probability % for the occurrence of each event/prediction 
 
 > All predicted prices must be **unique**.
 
@@ -52,5 +52,7 @@ Focus on:
 - Consider the (expected) date/time of approval of the actual events
 - Price technical breakouts to the downside or upside should be more volatile (sudden greater price moves between 7-15 percent) and with more volume
 - Critical point: Search for recent news and news headlines to substantiate the data. Find several sources and combine them to formulate averages and predictions.
+
+Search the web for some pending cryptocurrency related news or data. Then include these in the prompt previously provided and update your response. Include the data from the search you did in the Predictions Points, Key Factors, and Key Takeaways.
 
 Provide **comprehensive analysis** with **specific price targets** and **reasoning** for each of the 10 time points.
