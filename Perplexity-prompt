@@ -1,57 +1,24 @@
-# Initial Prompt
+Your goal is to make a bullish price prediction for ${symbol_upper} over timeframe ${timeframe} and provide detailed, catalyst-driven reasoning for each price target.
 
-## CASE TYPE: BULLISH
+Current market data:
+Symbol: ${symbol_upper},
+Current Price: ${current_price},
+24h Change: ${price_change_24h},
+7d Change: ${price_change_7d}
 
-### SCENARIO CONTEXT:
-Focus on **BULLISH** scenarios:
-
-- Regulatory breakthroughs and ETF approvals  
-- Technical breakouts above key resistance levels. Uptrend Channel formed that resembles a ‘bullflag’ with Support currently at ~$2,475 and Resistance at ~$2,850  
-- Surge in volume leading to a rapid price breakout  
-- Positive macro factors (Fed dovishness, USD weakness)  
-- Mention of money printing/quantitative easing or further easing down on quantitative tightening by the FED  
-- Celebrity/corporate endorsements, including but not limited to *Etherealize*  
-- Further progress on the **GENIUS Act** bill, which is meant to regulate stablecoins. Note that most stablecoins are on the Ethereum chain, so this can spark more volume.  
-- Adoption of RWAs (Real-World Assets) by corporate entities like **BlackRock**  
-- Updates or progress about Ethereum being included in the US Reserves, especially if it consists of a high percentage of crypto reserve portfolio  
-
----
-
-## CRYPTOCURRENCY SYMBOL: ETH  
-## TIME PERIOD: Next 1 week
-
-### CURRENT MARKET DATA:
-- **Current Price:** $2,616  
-- **24h Change:** 3.7%  
-- **7d Change:** 3.0%  
-- **Market Cap Rank:** #2  
-- **24h Volume:** $18,193,929,513  
-
----
-
-## NUMBER OF PREDICTIONS: 2
-
-### PREDICTION REQUIREMENTS:
-Generate **exactly 2 prediction points** spaced evenly over the time period.
+Prediction Requirements
+For each of the following future time points: Generate exactly ${prediction_segments} prediction points at these specific times: ${time_points_text}
 
 For each prediction point, provide:
 
-- **Predicted Price:** Specific price target with reasoning  
-- **Expected Volatility:** Percentage volatility expected around that time and corresponding volume  
-- **Market Insight:** Detailed analysis of why price will move to this level  
-- **Key Factors:** Specific catalysts, technical levels, or events driving the prediction  
-- **Confidence Level:** 1–5 scale with justification  
+A predicted price target for ${symbol_upper} at that time.
 
-> All predicted prices must be **unique**.
+Exactly two paragraphs for each point, including:
 
----
+Paragraph 1: Core reasoning behind the price target, referencing recent and upcoming specific catalysts or events
 
-### ANALYSIS FOCUS:
+Paragraph 2: Probability (as a percentage) and confidence level that ETH will achieve the specified price, with brief justification referencing key data (e.g., social media trends, trading volume, network activity, analyst focus, upcoming ETF options trading, etc.).
 
-- Recent market trends and momentum  
-- Technical analysis and key price targets  
-- Fundamental factors and upcoming events  
-- Market sentiment (Fear & Greed) and behavioral patterns  
-- Institutional activity and adoption trends  
+Tone: Use a professional, analytically neutral tone (not promotional) with a clear bullish outlook. Be specific, mentioning concrete recent and upcoming events, network data, and sentiment drivers. Do NOT exceed 2 paragraphs or 120 words per prediction point.
 
-Provide **comprehensive analysis** with **specific price targets** and **reasoning** for each of the 2 time points.
+Output the results in Markdown format, preserving line-breaks between the two paragraphs for each prediction point.
