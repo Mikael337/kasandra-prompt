@@ -1,37 +1,27 @@
-# Bullish Price Prediction Prompt for ${symbol_upper}
+Your goal is to make a bullish price prediction for ${symbol_upper} over timeframe ${timeframe} and provide detailed, catalyst-driven reasoning for each price target.
+Current market data:
+Symbol: ${symbol_upper}
+Current Price: ${current_price}
+24h Change: ${price_change_24h}
+7d Change: ${price_change_7d}
 
-Your goal is to make a bullish price prediction for **${symbol_upper}** over timeframe **${timeframe}** and provide detailed, catalyst-driven reasoning for each price target.
-
-## Current Market Data:
-- **Symbol:** ${symbol_upper}  
-- **Current Price:** ${current_price}  
-- **24h Change:** ${price_change_24h}  
-- **7d Change:** ${price_change_7d}  
-
-## Prediction Requirements
-
+Prediction Requirements
 For each of the following future time points:
 
-- Generate exactly **${prediction_segments}** prediction points at these specific times:  
-  ${time_points_text}
+Generate exactly ${prediction_segments} prediction points at these specific times:
+${time_points_text}
 
-For each prediction point, provide:  
+For each prediction point, provide:
+A predicted price target for ${symbol_upper} at that time.
+Exactly two paragraphs (each up to 30 words) for each point, including:
 
-- A predicted price target for **${symbol_upper}** at that time.  
-- Exactly two paragraphs (each up to 30 words) for each point, including:
+Paragraph 1: Core reasoning behind the price target, referencing recent and upcoming specific catalysts or events (e.g., ETF inflows and records, regulatory changes like the GENIUS Act, institutional adoption, DeFi/NFT/On-Chain/L2 activity, Layer 2 scaling, new financial products, social and on-chain sentiment, Fear & Greed Index, etc.).
 
-  1. **Paragraph 1:** Core reasoning behind the price target, referencing recent and upcoming specific catalysts or events (e.g., ETF inflows and records, regulatory changes like the GENIUS Act, institutional adoption, DeFi/NFT/On-Chain/L2 activity, Layer 2 scaling, new financial products, social and on-chain sentiment, Fear & Greed Index, etc.).
+Paragraph 2:  Probability (as a percentage) and confidence level that ${symbol_upper} will achieve the specified price, with brief justification referencing key data (e.g., social media trends, trading volume, network activity, analyst focus, upcoming ETF options trading, etc.).
 
-  2. **Paragraph 2:** Probability (as a percentage) and confidence level that **${symbol_upper}** will achieve the specified price, with brief justification referencing key data (e.g., social media trends, trading volume, network activity, analyst focus, upcoming ETF options trading, etc.).
+Search the web for anticipated or upcoming cryptocurrency related news or data, then include these in your response. Use multiple sources per prediction point, where possible, by taking averages.
 
-- Search the web for anticipated or upcoming cryptocurrency-related news or data, then include these in your response. Use multiple sources per prediction point, where possible, by taking averages.
+Tone: Use a professional, analytically neutral tone (not promotional) with a clear bullish outlook. Be specific, mentioning concrete recent and upcoming events, network data, and sentiment drivers.
+Do NOT exceed 2 paragraphs or 80 words per prediction point.
 
-- Tone: Use a professional, analytically neutral tone (not promotional) with a clear bullish outlook. Be specific, mentioning concrete recent and upcoming events, network data, and sentiment drivers.
-
-- Do **NOT** exceed 2 paragraphs or 80 words per prediction point.
-
-- Output the results in Markdown format, preserving line-breaks between the two paragraphs for each prediction point.
-
----
-
-**Current date:** Wednesday, July 23, 2025, 1:07 PM EEST
+Output the results in Markdown format, preserving line-breaks between the two paragraphs for each prediction point.
